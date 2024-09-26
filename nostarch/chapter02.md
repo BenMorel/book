@@ -376,8 +376,8 @@ Filename: Cargo.toml
 rand = "0.8.5"
 ```
 
-In the *Cargo.toml* file, everything that follows a header is part of that
-section that continues until another section starts. In `[dependencies]` you
+In the *Cargo.toml* file, everything that follows a section header is part of that
+section and continues until another section starts. In `[dependencies]` you
 tell Cargo which external crates your project depends on and which versions of
 those crates you require. In this case, we specify the `rand` crate with the
 semantic version specifier `0.8.5`. Cargo understands Semantic Versioning
